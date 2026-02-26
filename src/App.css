@@ -1,0 +1,11 @@
+/* Importação da Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, .btn, .table, .form-control, .navbar-brand, h1, h2, h3 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  background-color: #f4f7f6; /* Um fundo leve para destacar os cards/tabelas */
+  color: #333;
+}

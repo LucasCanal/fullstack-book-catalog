@@ -1,0 +1,36 @@
+{
+  "livros": [
+    {
+      "titulo": "Noites brancas",
+      "paginas": "96",
+      "categoria": "Romance",
+      "descricao": "Durante uma das maravilhosas \"noites brancas\" do verão de São Petersburgo, em que o sol praticamente não se põe, dois jovens se encontram numa ponte sobre o rio Nievá, dando início a uma história carregada de fantasia, emoção e lirismo.",
+      "isbn": "8573263350",
+      "id": 1
+    },
+    {
+      "titulo": "O Príncipe",
+      "paginas": "96",
+      "categoria": "Literatura",
+      "descricao": "O Príncipe oferece uma análise pragmática e desapaixonada sobre a natureza e o exercício do poder político.\n",
+      "isbn": "9780140449150",
+      "id": 2
+    },
+    {
+      "titulo": "Naúsea",
+      "paginas": "204",
+      "categoria": "Romance",
+      "descricao": "Este é o livro que marcou o início da carreira de Sartre, e tanto a crítica quanto o próprio autor o consideram o ápice de sua genialidade inquieta e inovadora.",
+      "isbn": "9780141185491",
+      "id": 3
+    },
+    {
+      "titulo": "Cleopatra e Frankenstein",
+      "paginas": "448",
+      "categoria": "Romance",
+      "descricao": "Um romance contemporâneo sobre um casamento impulsivo entre uma jovem artista britânica e um publicitário mais velho em Nova York.",
+      "isbn": "6555663693",
+      "id": 4
+    }
+  ]
+}
