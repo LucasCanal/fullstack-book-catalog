@@ -23,14 +23,6 @@
       "descricao": "Este é o livro que marcou o início da carreira de Sartre, e tanto a crítica quanto o próprio autor o consideram o ápice de sua genialidade inquieta e inovadora.",
       "isbn": "9780141185491",
       "id": 3
-    },
-    {
-      "titulo": "Cleopatra e Frankenstein",
-      "paginas": "448",
-      "categoria": "Romance",
-      "descricao": "Um romance contemporâneo sobre um casamento impulsivo entre uma jovem artista britânica e um publicitário mais velho em Nova York.",
-      "isbn": "6555663693",
-      "id": 4
     }
   ]
 }

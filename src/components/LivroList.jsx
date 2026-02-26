@@ -14,13 +14,6 @@ const LivroList = () => {
     const response = await api.get("/");
     setLivros(response.data)
   }
-
-  const handleExcluir = (id) => {
-    if (window.confirm("Tem certeza que deseja excluir este livro?")) {
-      excluir(id);
-    }
-  };
-
   const excluir = async (id) => {
     if (!window.confirm("Confirma a exclusão deste livro?")) return;
 
@@ -83,7 +76,7 @@ const LivroList = () => {
 
                   <button
                     className="btn btn-danger btn-sm"
-                    onClick={() => handleExcluir(livro.id)}
+                    onClick={() => excluir(livro.id)}
                   >
                     Excluir
                   </button>
