@@ -43,6 +43,3 @@ Aplicação Full Stack para gerenciamento de livros, desenvolvida com React no f
 - Consumo de API com Axios
 - Gerenciamento de estado com Hooks
 - Roteamento com React Router
-
-# Rodar aplicação
-npm run dev
