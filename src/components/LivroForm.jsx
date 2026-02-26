@@ -7,7 +7,7 @@ export default function LivroForm() {
   const [paginas, setPaginas] = useState("");
   const [categoria, setCategoria] = useState("");
   const [descricao, setDescricao] = useState("");
-  const [isbn, setIsbn] = useState(""); // ✅ agora está no lugar certo
+  const [isbn, setIsbn] = useState("");
 
   const { id } = useParams();
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ export default function LivroForm() {
         setPaginas(livro.paginas);
         setCategoria(livro.categoria);
         setDescricao(livro.descricao);
-        setIsbn(livro.isbn || ""); // ✅ evita erro se não existir
+        setIsbn(livro.isbn || "");
       });
     }
   }, [id]);
@@ -52,7 +52,7 @@ export default function LivroForm() {
       </div>
 
       <div className="card-body">
-        <form onSubmit={salvar}> {/* ✅ agora o submit está correto */}
+        <form onSubmit={salvar}>
 
           {/* Título */}
           <div className="mb-3">
